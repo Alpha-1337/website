@@ -1,12 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!--
+ 8888888                                             888         d8b               888    888                    888                        888    
+   888                                               888         Y8P               888    888                    888                        888    
+   888                                               888                           888    888                    888                        888    
+   888   88888b.   .d88b.   .d8888b .d88b.  88888b.  888888      888 .d8888b       888888 88888b.   .d88b.       88888b.   .d88b.  .d8888b  888888 
+   888   888 "88b d88""88b d88P"   d8P  Y8b 888 "88b 888         888 88K           888    888 "88b d8P  Y8b      888 "88b d8P  Y8b 88K      888    
+   888   888  888 888  888 888     88888888 888  888 888         888 "Y8888b.      888    888  888 88888888      888  888 88888888 "Y8888b. 888    
+   888   888  888 Y88..88P Y88b.   Y8b.     888  888 Y88b.       888      X88      Y88b.  888  888 Y8b.          888 d88P Y8b.          X88 Y88b.  
+ 8888888 888  888  "Y88P"   "Y8888P "Y8888  888  888  "Y888      888  88888P'       "Y888 888  888  "Y8888       88888P"   "Y8888   88888P'  "Y888 
+ -->
+
+<html>
 <head>
-	<meta charset="UFT-8">
-	<title>AlphaLeanWebSite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>$</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat Brush" rel="stylesheet">
+    <meta property="og:site_name" content="Inocent" />
+    <meta property="og:type" content="profile" />
+    <link rel="icon" href="assets/icon.png">
+    <script src="assets/title.js"></script>
+	<link rel="stylesheet" href="assets/sty.css">
+<style type="text/css">
+  div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+div::after {
+      height: 100%;
+      width: 100%;
+      color: #FFF;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+}
+        footer>a:hover {
+            opacity: 0.9;
+        }
+        .video-background {
+            background: #000;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -99
+        }
+        .video-foreground,
+        .video-background iframe {
+            position: fixed;
+            height: 125%;
+            top: -12.5%;
+            pointer-events: none
+        }
+        .ytplayer {
+            pointer-events: none
+        }
+    </style>
+	<script>
+	document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+};
+</script>
 </head>
 <body>
-<div>
-	<h1>Bem Vindo!</h1>
+    <div>
+        <h1>Alpha is the Dlç</h1>
+        <h6>Alpha-Lean website</h6>
+    </div>
+    </div>
 </div>
+    <footer>
+        <a href="https://github.com/AlphaLean157" target="_blank">
+            <img src="assets/git.svg">
+            <p>GitHub</p>
+        </a>
+        <a href="https://www.youtube.com/AlphaTerrorist" target="_blank">
+            <img src="assets/youtube.svg">
+            <p>YouTube</p>
+        </a>
+        <a href="https://twitter.com/Alphaszzz" target="_blank">
+            <img src="assets/twitter.svg">
+            <p>Twitter</p>
+        </a>
+        <a>
+            <img src="assets/discord.svg">
+            <p>Alpha_#0652#</p>
+        </a>
+    </footer>
+	<div class="video-background" id="video-background" style="background: #000;position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: -99;">
+    <div class="video-foreground" id="video-foreground">
+    <iframe class="video-background" id="video-background" type="text/html" width=100% height=100% src="https://www.youtube-nocookie.com/embed/pTlcl7aTG_o?start=05&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;iv_load_policy=3&amp;loop=1&amp;playlist=43vyXjwETAE" frameborder="0" allow="autoplay"></iframe>
+    </div></div>
 </body>
 </html>
+
